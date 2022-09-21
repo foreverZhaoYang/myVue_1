@@ -2,12 +2,14 @@
   <div class="left-container">
     <h3>Left 组件</h3>
     <hr>
-    <MyCount :init="10"></MyCount>
+    <MyCount :init="10" ></MyCount>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  
+}
 </script>
 
 <style lang="less">
