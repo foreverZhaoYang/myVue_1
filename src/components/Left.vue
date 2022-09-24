@@ -1,13 +1,14 @@
 <template>
   <div class="left-container">
-    <h3>Left 组件</h3>
+    <h3>Left 组件--{{ this.$route.params.mid }}--{{mid}}</h3>
     <hr>
-    <MyCount :init="10" ></MyCount>
+    <!-- <MyCount :init="10" ></MyCount> -->
   </div>
 </template>
 
 <script>
 export default {
+  props:['mid']
   
 }
 </script>

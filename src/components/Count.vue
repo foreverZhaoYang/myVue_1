@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="Count-container">
       <h4>这是Count全局组件</h4>    
 
       <p>您的力量:{{ list.power }}</p> 
@@ -66,8 +66,14 @@ export default {
 </script>
 
 <style lang="less">
+  .Count-container{
+    flex:1;
+    background-color: gold;
     .myBox1 {
         width: 150px;
         height: 50px;
     }
+
+  }
+   
 </style>
